@@ -1,0 +1,49 @@
+
+
+
+.formulario{
+	background-color:#DEDEDE;
+	width:80%;
+	padding:1%;
+	margin:0% 10% 1% 10%;
+}
+
+#titulo{
+	text-align:center;
+	font-size:150%;
+}
+
+.campos label{
+	width:35%;
+	display:block;
+	margin:1% 20% 1% 20%;
+}
+.campos input{
+	display:block;
+	margin-left:20%;
+	margin-right:20%;
+}
+
+#nombre{
+	width:50%;
+}
+#email{
+	width:60%;
+}
+#archivos{
+	width:50%;
+}
+#mensaje{
+	width:50%;
+	height:10em;
+	margin-left:20%;
+	margin-right:20%;
+}
+#btnSubmit {	
+	font-size: 100%;
+	background-color:blue;
+	color:white;
+	padding: 1%;
+	border:2px solid darkblue;
+	margin:1% 20% 1% 40%;
+}

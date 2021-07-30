@@ -1,0 +1,84 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+width:80%;
+margin:2% 10% 2% 10%;
+}
+
+
+.articulos{
+	background-color:#231f20;
+	width:80%;
+	padding: 0% 2% 0% 2%;
+	margin: 2% 2% 2% 2%;
+}
+.articulos header h2{
+	font-family:Pattaya;	
+	color:white;
+	text-align:center;
+	margin-top:1%;
+}
+.articulos figure img{
+	width:92%;
+	margin:0% 4% 0% 4%;
+}
+.articulos figcaption{
+	color:white;
+}
+.articulos footer{
+	color:white;
+	text-align:center;
+}
+
+
+.aside{
+	color:white;	
+	background-color:darkblue;
+	display:inline-block;
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+.aside h3{
+	text-align:center;
+	margin:1% 1% 1% 1%;
+}
+
+.articulosTOP{
+	background-color:black;
+	width:30%;
+	padding: 0% 2% 0% 2%;
+	border:0.5em solid white;
+	margin: 2% 2% 2% 2%;
+}
+.articulosTOP header h2 {
+	font-family:Pattaya;	
+	color:w
+	font-size:50%;hite;
+	text-align:center;
+	margin-top:1%;
+}
+.articulosTOP figure img{
+	width:92%;
+	margin:0% 4% 0% 4%;
+}
+.articulosTOP figcaption{
+	color:white;
+}
+.articulosTOP footer h3{
+	color:white;
+	text-align:center;
+}
+
+.new{
+    font-family:Arial;
+    color:yellow;
+    animation-name: cambiarColor;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+@keyframes cambiarColor {
+    from {color: red;}
+    to {color: blue;}
+}

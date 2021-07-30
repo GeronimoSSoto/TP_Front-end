@@ -1,0 +1,25 @@
+
+article{
+	width:100%;
+	padding: 5% 10% 5% 10%;
+}
+
+#titulo{
+	text-align:center;
+	font-size:2.5em;
+}
+#cuerpo{
+	text-align: center;
+	font-size:1em;
+}
+.sugerencia h2{
+	color:darkblue;
+	font-size:2em;
+}
+.sugerencia a{	
+	text-decoration: none;	
+	font-size:2em;
+}
+.sugerencia p{
+	font-size:1em;
+}

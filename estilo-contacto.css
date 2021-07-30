@@ -1,0 +1,15 @@
+
+.datos{
+	margin: 2% 2% 2% 2%;
+}
+
+header > figure img{
+	width:5%;
+}
+header > figure figcaption{
+	display:inline;
+}
+iframe{
+	width:60%;
+	height:50em;
+}
